@@ -1,0 +1,4 @@
+Program:
+- Mengambil data lokasi, dan menampilkannya dalam tampilan peta
+- Membuat perintah untuk microcontroller
+- Membuat tampilan menu
