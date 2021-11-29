@@ -1,7 +1,6 @@
+//https://www.youtube.com/watch?v=i1yBv1CM7mY
 //Select your modem
 //SSL/TLS is currently supported only with SIM8xx series
-//https://github.com/ahmadlogs/esp32-firebase-gsm-gps
-
 #define TINY_GSM_MODEM_SIM800
 
 //Increase RX buffer
@@ -14,8 +13,8 @@
 //NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 
 //NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
-const char FIREBASE_HOST[]  = "gps-testing-f07a1-default-rtdb.asia-southeast1.firebasedatabase.app";
-const String FIREBASE_AUTH  = "G3cBC5C7xZ73V4PwjJ2EmjzpuHtj3nkCVeH2051c";
+const char FIREBASE_HOST[]  = "sister-test-c11b3-default-rtdb.asia-southeast1.firebasedatabase.app";
+const String FIREBASE_AUTH  = "JG3PwP64Np5vUyO8dM8pD22Vm9AbDeUQFXMWweu7";
 const String FIREBASE_PATH  = "koor";
 const int SSL_PORT          = 443;
 //NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
@@ -23,7 +22,7 @@ const int SSL_PORT          = 443;
 //NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 // Your GPRS credentials
 // Leave empty, if missing user or pass
-char apn[]  = "telkomsel";
+char apn[]  = "internet";
 char user[] = "wap";
 char pass[] = "wap123";
 //NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
@@ -31,8 +30,8 @@ char pass[] = "wap123";
 //NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 //GSM Module RX pin to ESP32 2
 //GSM Module TX pin to ESP32 4
-#define rxPin 3
-#define txPin 1
+#define rxPin 4
+#define txPin 2
 HardwareSerial sim800(1);
 TinyGsm modem(sim800);
 //NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
@@ -233,12 +232,4 @@ void gps_loop()
   }
   //NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 }
-//**************************************************************************************************void setup() {
-  // put your setup code here, to run once:
-
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
+//**************************************************************************************************
