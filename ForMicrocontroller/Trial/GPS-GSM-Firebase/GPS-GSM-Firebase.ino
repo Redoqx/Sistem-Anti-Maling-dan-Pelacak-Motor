@@ -22,7 +22,7 @@ const int SSL_PORT          = 443;
 //NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 // Your GPRS credentials
 // Leave empty, if missing user or pass
-char apn[]  = "internet";
+char apn[]  = "telkomsel";
 char user[] = "wap";
 char pass[] = "wap123";
 //NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
@@ -41,7 +41,7 @@ TinyGsm modem(sim800);
 //GPS Module TX pin to ESP32 16
 #define RXD2 16
 #define TXD2 17
-HardwareSerial neogps(2);
+HardwareSerial neogps(1);
 TinyGPSPlus gps;
 //NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 
