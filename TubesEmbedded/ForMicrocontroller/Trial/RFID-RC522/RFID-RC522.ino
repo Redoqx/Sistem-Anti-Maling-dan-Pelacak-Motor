@@ -2,7 +2,7 @@
 #include <SPI.h>
 #include <MFRC522.h>
 
-#define RST_PIN 22
+  #define RST_PIN 22
 #define SS_PIN 21
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);
