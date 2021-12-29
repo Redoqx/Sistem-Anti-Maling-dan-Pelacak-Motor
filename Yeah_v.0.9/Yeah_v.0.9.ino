@@ -24,9 +24,9 @@ TinyGPSPlus gps;
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include <BlynkSimpleEsp32_SSL.h>
-char auth[] = "";
-char ssid[] = "";
-char pass[] = "";   
+char auth[] = "";//change with your token from Blynk
+char ssid[] = "";//change with your Wi-Fi SSID 
+char pass[] = "";//chaneg with your Wi-Fi password
 WidgetMap myMap(V1);
 WidgetLED Al_LED(V3);
 WidgetLED AC_LED(V4);//ACC LED
