@@ -1,10 +1,10 @@
 # TubesEmbedded
 Pengembangan sistem keamanan sepeda motor
 Dikembangkan oleh:
-    - Ridho Liwardana 119140038
-    - Nurul Aulia Larasati 119140008
-    - Nesa OKtavia 119140091
-    - Sophia Nouriska 119140027
+- Ridho Liwardana 119140038
+- Nurul Aulia Larasati 119140008
+- Nesa Oktavia 119140091
+- Sophia Nouriska 119140027
 
 Cara membangun sistem:
 1. Install hal-hal berikut ini:
