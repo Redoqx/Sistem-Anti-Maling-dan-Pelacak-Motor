@@ -9,9 +9,10 @@ Dikembangkan oleh:
 Cara membangun sistem:
 1. Install hal-hal berikut ini:
     - Arduino IDE
-    - Library Blynk
-    - Library RFID
-    - Library tinyGPS
+    - ESP32 Board       https://github.com/espressif/arduino-esp32
+    - Library Blynk     https://downloads.arduino.cc/libraries/github.com/blynkkk/Blynk-1.0.1.zip
+    - Library RFID      https://github.com/pablo-sampaio/easy_mfrc522
+    - Library tinyGPS   https://github.com/mikalhart/TinyGPSPlus/releases
 2. Susun perangkat berdasarkan WiringDiagram_bb.png
     * Pastikan Output yang dihasilkan dari Stepdown converter adalah 5V
 3. Buat project baru pada Blynk dan atur Project baru seperti pada gambar BlynkSetup.jpg dengan ketentuan:
@@ -21,3 +22,5 @@ Cara membangun sistem:
     - LED Alarm Set terhubung dengan V3
     - LED Machine Access State terhubung dengan V4
 4. Upload Code ke DOIT ESP32 Devkit
+    * Pastikan anda telah memilih doit esp 32 pada opsi board
+5. You are ready to go
