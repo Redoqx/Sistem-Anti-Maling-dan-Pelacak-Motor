@@ -24,3 +24,6 @@ Cara membangun sistem:
 4. Upload Code ke DOIT ESP32 Devkit
     * Pastikan anda telah memilih doit esp 32 pada opsi board
 5. You are ready to go
+
+*Note: This project is undone project
+In the next update we'll make the system connect to blynk via GSM module
