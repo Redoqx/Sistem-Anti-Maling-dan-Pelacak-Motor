@@ -1,5 +1,11 @@
 # TubesEmbedded
-Pengembangan sistem keamanan sepeda motor
+Sistem Keamanan Sepeda Motor
+Sistem ini akan memantau posisi motor serta melacak terjadinya tindak pencurian sepeda motor.
+Sistem terkoneksi ke ponsel pengguna via aplikasi blynk dan jaringan Wi-Fi.
+Sistem akan mengenali pemilik sepeda motor berdasarkan NFC tag yang dimiliki oleh penggunanya.
+Anda dapat melacak posisi, mengganti NFC tag dengan yang baru dan menyalakan alarm melalui smartphone anda.
+
+
 Dikembangkan oleh:
 - Ridho Liwardana 119140038
 - Nurul Aulia Larasati 119140008
@@ -25,5 +31,5 @@ Cara membangun sistem:
     * Pastikan anda telah memilih doit esp 32 pada opsi board
 5. You are ready to go
 
-*Note: This project is undone project
+*Note: This project is an undone project
 In the next update we'll make the system connect to blynk via GSM module
